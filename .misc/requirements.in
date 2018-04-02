@@ -1,0 +1,5 @@
+# For compiling requirements files
+pip-tools
+
+# For outputting formatted .rst files to stdout
+rst2ansi
