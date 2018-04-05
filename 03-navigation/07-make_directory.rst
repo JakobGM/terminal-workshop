@@ -2,10 +2,16 @@
 mkdir : create directory
 ========================
 
-``mkdir another_sibling``
+Syntax: ``mkdir <directory>``
 
-``mkdir yet_another_sibling/subsibling``
+- Create a directory:
+    ``mkdir another_sibling``
 
-``mkdir -p yet_another_sibling/subsibling``
+- Create a directory within another directory:
+    ``mkdir yet_another_sibling/subsibling``
 
-``-p`` : *parent*, creates all missing directories
+- Trying once more: 
+    ``mkdir -p yet_another_sibling/subsibling``
+
+- Why the difference?
+    ``-p`` : *parent*, creates all missing directories

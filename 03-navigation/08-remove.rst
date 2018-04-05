@@ -2,10 +2,17 @@
 rm : remove file or directory
 =============================
 
-``rm delete_me``
+Syntax: ``rm [-R] <dir/file>``
 
-``rm another_sibling``
 
-``rm -R another_sibling``
+- Remove file:
+    ``rm delete_me``
 
-``-R`` : *Recursive*, want to delete the directory and its sub directories / files
+- Remove directory:
+    ``rm another_sibling``
+
+- Once again...
+    ``rm -R another_sibling``
+
+- Why the difference?
+    ``-R`` : *Recursive*, want to delete the directory and its sub directories / files
