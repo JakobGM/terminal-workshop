@@ -4,5 +4,8 @@ pip-tools
 # For outputting formatted .rst files to stdout
 git+https://github.com/Snaipe/python-rst2ansi
 
+# Transient dependency of rst2ansi
+docutils
+
 # For outputting code blocks, using rst2ansi
 pygments
