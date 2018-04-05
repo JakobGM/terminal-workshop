@@ -2,14 +2,14 @@
 cp: copy file or directory
 ==========================
 
-Syntax: ``cp [-R] <source dir/file> <destination>``
+Syntax: **cp [-r] <source dir/file> <destination>**
 
 - Copy of file:
-    ``cp im_original im_a_copy``
+    **cp im_original im_a_copy**
 
-- Copy of directory mom:
-    ``cp mom backup_mom``
+- Copy of mother directory:
+    **cp mom backup_mom**
 
 - Once more...
-    ``cp -R mom backup_mom``
+    **cp -r mom backup_mom**
 

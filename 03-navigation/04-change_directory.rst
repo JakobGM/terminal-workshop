@@ -2,14 +2,14 @@
 Change folder: Explore the world
 ================================
 
-- Change directory to ``workspace``:
-    ``cd workspace``
+- Change directory to **workspace**:
+    **cd workspace**
 
 - Go deeper:
-    ``cd subdirectory``
+    **cd subdirectory**
 
 - Change to sibling directory:
-    ``cd ../sibling``
+    **cd ../sibling**
 
-- Go back:
-    ``cd ..``
+- Go up:
+    **cd ..**
