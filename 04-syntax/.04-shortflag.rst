@@ -1,0 +1,7 @@
+=============
+'Short' flags
+=============
+
+- You can chain short flags together for ergonomics.
+- Less readable, should not be used in shell scripts.
+- "``ls -la``" is a good demonstration of chained short flags.

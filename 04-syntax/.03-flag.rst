@@ -1,0 +1,7 @@
+==================
+Tweaking behaviour
+==================
+
+- Terminal programs try their best to set sensible defaults, but eventually it will not be the behaviour you require.
+- Flags always begin with double dashes, "``--``".
+- Each flag is a single word that describes the tweaked behaviour.

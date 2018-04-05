@@ -1,0 +1,7 @@
+====================
+How to run a program
+====================
+
+- Everything you do in a terminal is basically running very specialized programs.
+- Each program does *one* thing very well, and not much more. This is at least the philosophy.
+- Programs are found according to a heuristic we don't have time to explain. For those curious, google "``PATH variable``".

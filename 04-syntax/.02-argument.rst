@@ -1,0 +1,7 @@
+===================
+Specifying operands
+===================
+
+- Programs often operate on one and/or more files.
+- These are specified at the *end* of the command.
+- Optional parts of a command are conventionally written within []-brackets.
