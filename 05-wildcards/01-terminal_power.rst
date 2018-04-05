@@ -7,10 +7,10 @@ Asterix, **\*** = anything
 We want to run a command on all files that:
 
 - Starts with **a**:
-    ``ls a*``
+    **ls a\***
 
 - Ends with **z**: 
-    ``ls *z``
+    **ls *z**
 
 - Contains **gluten**: 
-    ``ls *gluten*``
+    **ls \*gluten\***
