@@ -1,0 +1,4 @@
+UNIX systems have what we call "terminal". 
+What is UNIX? Long story short: macOS and Linux have some common code, or implementations. 
+Terminal on Windows? Equivalent is "Command prompt" or "Power shell", but the are not very similar to the terminal. However: you can use Windows to connect to a Linux server, much like remote desktop. 
+You can also install something called "Linux subsystem for Windows", but this is reserved for advanced users for this workshop.
