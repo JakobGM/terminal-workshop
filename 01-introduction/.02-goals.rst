@@ -1,6 +1,6 @@
-Some basic stuff, for instance: Move files and directories: back and forth
+- Some basic stuff, for instance: Move files and directories: back and forth
 Find files and directories, with wildcards and such
 
-By learning a set of commands, you will be able to help help the few Linux users we have, yourself inlcuded.
+- By learning a set of commands, you will be able to help help the few Linux users we have, yourself inlcuded.
 Potentially save time when helping MacOS users, since MacOS also has this terminal. 
-Follow guides on the internet: do cool stuff. Run your own website, automated backup of a specific directory, daily email to your mom etc. 
+- Follow guides on the internet: do cool stuff. Run your own website, automated backup of a specific directory, daily email to your mom etc. 
