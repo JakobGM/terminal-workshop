@@ -13,11 +13,12 @@ note () {
 ROOT_FOLDER=$(cd `dirname $0` && pwd)/..
 
 section () {
-  clear
   cd ${ROOT_FOLDER}/*${1}-*
+  clear
 }
 
-workspace () {
-  clear
+task () {
   cd ${ROOT_FOLDER}/*${1}-*/workspace
+  clear
+  rst2ansi ../tasks.rst
 }
