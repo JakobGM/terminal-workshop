@@ -21,7 +21,9 @@ You should now have the following commands available to you:
 - ``section <number>``: Navigate to specific workspace section
 - ``workspace <number>``: Navigate to the workshop of section <number>
 
-If you want to output the slides to your terminal, you need to do the following:
+
+
+If you want to output the slides to your terminal, you need to do the following (**Optional**):
 
 ------------
 
