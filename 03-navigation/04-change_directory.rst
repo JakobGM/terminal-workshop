@@ -6,7 +6,10 @@ Change folder: Explore the world
     ``cd workspace``
 
 - Go deeper:
-    ``cd todo``
+    ``cd subdirectory``
+
+- Change to sibling directory:
+    ``cd ../sibling``
 
 - Go back:
     ``cd ..``
