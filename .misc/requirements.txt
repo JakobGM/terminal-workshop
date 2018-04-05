@@ -3,3 +3,6 @@ pip-tools
 
 # For outputting formatted .rst files to stdout
 git+https://github.com/Snaipe/python-rst2ansi
+
+# For outputting code blocks, using rst2ansi
+pygments
