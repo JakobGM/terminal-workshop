@@ -5,11 +5,15 @@ export ORIGINAL_PS1=$PS1
 
 slide () {
   clear
+  echo "Section ${SECTION} - Slide ${1}"
+  echo
   rst2ansi ${SECTION_PATH}/*${1}-*.rst
 }
 
 note () {
   clear
+  echo "Section ${SECTION} - Note ${1}"
+  echo
   rst2ansi ${SECTION_PATH}/.*${1}-*.rst
 }
 
@@ -19,12 +23,17 @@ section () {
   export SECTION_PATH=$(echo ${ROOT_FOLDER}/*${1}-*)
   export PS1="(Section ${SECTION}) ${ORIGINAL_PS1}"
   cd ${SECTION_PATH}
+
   clear
+  echo "You just change to workshop section ${SECTION}"
+  echo
 }
 
 tasks () {
   cd ${SECTION_PATH}/workspace
   clear
+  echo "Tasks for section ${SECTION}"
+  echo
   rst2ansi ../tasks.rst
 }
 
