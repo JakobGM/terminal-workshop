@@ -1,7 +1,9 @@
 #!/bin/sh
 
 ROOT_FOLDER=$(cd `dirname $0` && pwd)/..
-export ORIGINAL_PS1=$PS1
+if [ "$ORIGINAL_PS1" = "" ]; then
+  export ORIGINAL_PS1=$PS1
+fi
 
 slide () {
   clear
