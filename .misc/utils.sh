@@ -8,6 +8,7 @@ fi
 slide () {
   clear
   echo "Section ${SECTION} - Slide ${1}"
+  echo "==================="
   echo
   rst2ansi ${SECTION_PATH}/*${1}-*.rst
 }
@@ -37,6 +38,14 @@ tasks () {
   echo "Tasks for section ${SECTION}"
   echo
   rst2ansi ../tasks.rst
+}
+
+solutions () {
+  clear
+  echo "Solutions for section ${SECTION} tasks:"
+  echo "=============================="
+  echo
+  rst2ansi "${SECTION_PATH}/.solutions.rst"
 }
 
 help () {
