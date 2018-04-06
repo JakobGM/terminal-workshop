@@ -1,0 +1,6 @@
+=========
+Solutions
+=========
+
+1. **cat orakel-1.txt**
+2. **cat o\***

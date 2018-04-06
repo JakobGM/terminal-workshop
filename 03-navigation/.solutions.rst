@@ -1,0 +1,9 @@
+=========
+Solutions
+=========
+
+1. **pwd**, **cd workspace**
+2. ** cd mom/sibling**
+3. **cd ../yet_another_sibling**
+4. **cd ..**
+5. **pwd**
