@@ -1,0 +1,4 @@
+#. Result of **wc --words "A Christmas Carol.txt"** -> **31 568** words.
+#. Result of **wc --chars "A Christmas Carol.txt"** -> **177 815** characters.
+#. Result of **wc --max-line-length "A Christmas Carol.txt"** -> **75** characters.
+#. Result of **ls -lh "A Christmas Carol.txt"** -> **174K**.
