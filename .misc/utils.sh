@@ -1,8 +1,19 @@
 #!/bin/sh
 
+# Save the root directory of this git repository
 ROOT_FOLDER=$(cd `dirname $0` && pwd)/..
+
+# Save the user prompt before editing it,
+# taking care that it is only saved once.
 if [ "$ORIGINAL_PS1" = "" ]; then
   export ORIGINAL_PS1=$PS1
+fi
+
+# Install python dependencies if not already installed
+if [ ! $(command -v rst2ansi) ]; then
+  echo "Installing python dependencies..."
+  pip3 install -r ${ROOT_FOLDER}/.misc/requirements.txt > /dev/null
+  echo "Done!"
 fi
 
 slide () {

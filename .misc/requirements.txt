@@ -9,3 +9,6 @@ docutils
 
 # For outputting code blocks, using rst2ansi
 pygments
+
+# Useful tool used during 05-documentation
+tldr
