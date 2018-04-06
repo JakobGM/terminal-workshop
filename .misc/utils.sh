@@ -55,5 +55,6 @@ help () {
   echo "section NUMBER :  Go to workshop section NUMBER."
   echo "slide NUMBER   :  Show slide NUMBER in the current section."
   echo "note NUMBER    :  Show the presenter notes for slide NUMBER in the current section."
-  echo "tasks          :  Go to workspace tasks for section."
+  echo "tasks          :  Go to workspace tasks for the current section."
+  echo "solutions      :  Show the solutions to the tasks for the current section."
 }
