@@ -14,9 +14,3 @@ These commands support both absolute and relative paths
     move file / directory
 **cp <original> <copy>**:
     copy file / directory
-
--------
-
-Work in "workspace" directory:
-    - **cd workspace**
-    - **pwd** to confirm

@@ -2,14 +2,13 @@
 Change folder: Explore the world
 ================================
 
-- Change directory to **workspace**:
-    **cd workspace**
+Command: **cd <directory>**
 
-- Go deeper:
+- Go deeper into into the directory hierarchy:
     **cd subdirectory**
 
 - Change to sibling directory:
     **cd ../sibling**
 
-- Go up:
+- Go back / up 1 level:
     **cd ..**
