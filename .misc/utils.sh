@@ -59,6 +59,18 @@ solutions () {
   rst2ansi "${SECTION_PATH}/.solutions.rst"
 }
 
+install_brew () {
+  # Install "brew" for MacOS users
+  if [ "$(uname)" = "Darwin" ] && [ ! $(command -v brew) ]; then
+    echo "Installing brew for MacOS..."
+    /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+    echo "Done!"
+  else
+    echo "Brew already installed!"
+  fi
+}
+
+
 help () {
   echo "The workshop is seperated into numerical sections, numbered 1, 2, 3, and so on."
   echo
