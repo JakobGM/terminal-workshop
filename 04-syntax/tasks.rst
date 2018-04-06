@@ -7,7 +7,8 @@ A command for finding all files and directories has the following syntax:
         **find <directory_to_look> [flags] [pattern]**
 
 
-A file with your NTNU username is hidden in the directory called **secrets**. 
+A file with your favorite Orakeltjeneste helpdesk is hidden in the directory called **secrets**. 
+These desks are: Dragvoll, Gløshaugen, Øya, Handelshøyskolen and Kalvskinnet. 
 
 #. What is the **<directory_to_look>** in this case?
 #. Find all files in the current (**.**) directory.
