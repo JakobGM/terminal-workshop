@@ -1,0 +1,12 @@
+=========
+Solutions
+=========
+
+1. **cd workspace**
+2. **mkdir family_photos**
+3. **cd backup**
+3. 0\* is expanded to 00-vaction.jpg 01-vaction.jpg 02-vaction.jpg 03-vaction.jpg 04-vaction.jpg
+
+3. Type **0\***, and press the tab key. What happened?
+4. Move all images, ending with **.jpg**, from **backup** to **family_photos**.
+5. Remove all files in the backup directory, with a dash, **-**, in its name. 
