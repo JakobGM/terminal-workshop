@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Save the root directory of this git repository
-ROOT_FOLDER=$(cd `dirname $0` && pwd)/..
+ROOT_FOLDER=$(cd `dirname -- $0` && pwd)/
 
 # Save the user prompt before editing it,
 # taking care that it is only saved once.
